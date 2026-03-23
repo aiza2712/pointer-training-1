@@ -16,5 +16,9 @@ int main() {
         cout << "last value: " << *(arr + i)  << endl;
     }
    
+    *(arr + 2) = 30;
+    for (int i = 0; i < 4; i++ ) {
+        cout << "modif one values: " << *(arr + i) << endl;
+    }
 }
 
