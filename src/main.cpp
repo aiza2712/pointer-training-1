@@ -9,5 +9,12 @@ int main() {
     for (int i = 0; i < 4; i++) {
         cout << "values array with pointer: " << *(arr + i)  << endl;
     }
+
+    int a = 8;
+    for (int i = 0; i < 4; i++) {
+        *(arr + i) = *(arr + i ) + a; 
+        cout << "last value: " << *(arr + i)  << endl;
+    }
+   
 }
 
